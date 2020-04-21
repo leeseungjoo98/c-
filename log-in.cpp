@@ -10,8 +10,8 @@ int main() {
 	cin >> ID;
 	cout << "PASSWORD :";
 	cin >> PASSWORD;
-    char A[100] = "pool9789" ;
-	char B[100] =  "ikxfh72h98!" ;
+    char A[100] = "leeseungjoo98" ;
+	char B[100] =  "podjwlkd" ;
 	int number = strcmp(ID, A);
 	int number1 = strcmp(PASSWORD, B);
 	if (number == 0)
