@@ -20,7 +20,6 @@ int main() {
 	int *g = score;
 	cout << "학생" << number + 1 << "번:" << score[number];
 	cout << "학생" << number + 1 << "번:" << g[number];
-	
-
+	delete [] score;
 	return 0;
 }
